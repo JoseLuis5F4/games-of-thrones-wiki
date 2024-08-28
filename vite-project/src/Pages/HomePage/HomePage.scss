@@ -1,0 +1,41 @@
+.homeBG {
+  background-image: url("../../img/tronoHome.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; // Centra la imagen en el contenedor
+  height: 100vh; // Asegura que cubra toda la pantalla
+
+  @media screen and (max-width: 440px) {
+    background-image: url("../../img/tronoHome.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.titleHP {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: white;
+    font-size: 100px;
+    margin: 0px 130px;
+    padding: 10px 0px;
+
+    @media screen and (max-width: 1300px) {
+      font-size: 100px;
+      margin: 0;
+    }
+    @media screen and (max-width: 650px) {
+      font-size: 70px;
+      margin: 0;
+    }
+    @media screen and (max-width: 440px) {
+      font-size: 40px;
+      margin: 0;
+    }
+  }
+}
